@@ -1,0 +1,64 @@
+[
+  {
+    "id": "shoe001",
+    "name": "Nike Air Force 1 Low",
+    "img": [
+      "/uploads/nike_af1_1.webp",
+      "/uploads/nike_af1_2.webp",
+      "/uploads/nike_af1_3.webp"
+    ],
+    "price": "3800.00",
+    "detail": "รองเท้าสนีกเกอร์คลาสสิกจาก Nike ที่ไม่เคยตกยุค เหมาะสำหรับทุกโอกาส มอบความสบายและสไตล์ที่ลงตัว",
+    "type": "Sneakers",
+    "brand": "Nike",
+    "gender": "Unisex",
+    "color": "White",
+    "sizes": [
+      { "size": "US 7 / EU 40", "onShop": true },
+      { "size": "US 8 / EU 41", "onShop": true },
+      { "size": "US 9 / EU 42", "onShop": true },
+      { "size": "US 10 / EU 43", "onShop": true }
+    ]
+  },
+  {
+    "id": "boot001",
+    "name": "Alpinestars Supertech R Vented Boots",
+    "img": [
+      "/uploads/alpinestars_sr_1.webp",
+      "/uploads/alpinestars_sr_2.webp",
+      "/uploads/alpinestars_sr_3.webp"
+    ],
+    "price": "19500.00",
+    "detail": "รองเท้าบูทมอเตอร์ไซค์ระดับพรีเมียมจาก Alpinestars ออกแบบมาเพื่อการแข่งขันโดยเฉพาะ ให้การป้องกันสูงสุดและระบายอากาศได้ดีเยี่ยม",
+    "type": "Racing Boots",
+    "brand": "Alpinestars",
+    "gender": "Male",
+    "color": "Black/White/Red",
+    "sizes": [
+      { "size": "EU 42", "onShop": true },
+      { "size": "EU 43", "onShop": true },
+      { "size": "EU 44", "onShop": true },
+      { "size": "EU 45", "onShop": true }
+    ]
+  },
+  {
+    "id": "sandal001",
+    "name": "Adidas Adilette Comfort Slides",
+    "img": [
+      "/uploads/adidas_adilette_1.webp",
+      "/uploads/adidas_adilette_2.webp"
+    ],
+    "price": "1200.00",
+    "detail": "รองเท้าแตะที่สวมใส่สบายเป็นพิเศษจาก Adidas เหมาะสำหรับการพักผ่อนหลังจากออกกำลังกายหรือใส่ในชีวิตประจำวัน",
+    "type": "Sandals",
+    "brand": "Adidas",
+    "gender": "Unisex",
+    "color": "Black",
+    "sizes": [
+      { "size": "US 6", "onShop": true },
+      { "size": "US 7", "onShop": true },
+      { "size": "US 8", "onShop": true },
+      { "size": "US 9", "onShop": true }
+    ]
+  }
+]

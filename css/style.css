@@ -33,12 +33,13 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #eae7e7;
      font-size: 14px;
      font-family: Poppins;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     background-color: #ffffff;
 }
 
 a {
@@ -52,7 +53,6 @@ a {
      transition: all .3s ease-in-out;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -131,7 +131,7 @@ p {
 }
 
 a {
-     color: #222222;
+     color: #000000;
      text-decoration: none;
      outline: none !important;
 }
@@ -145,6 +145,11 @@ a,
      -ms-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
+}
+
+.logo img {
+  width: 60px;
+  height: auto; /* รักษาอัตราส่วน */
 }
 
 img {
@@ -207,23 +212,24 @@ button {
 }
 
 .layout_padding {
-     padding-top: 90px;
-     padding-bottom: 90px;
+     padding-top: 0px;
+     padding-bottom: 50px;
 }
 
 .header_section{
 	width: 100%;
 	float: left;
-	background-image: url(../images/banner.png);
 	height: auto;
 	padding: 20px 0px;
 	background-size: 100%;
 	background-repeat: no-repeat;
+    background-color: #121212; /* โปร่งใส */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* เพิ่มเงาด้านล่าง */
 }
 
 .padding_0{ width: 100%; float: left; }
 
-.mens_taital{ width: 100%; float: left; color: #908d92; font-size: 14pt; }
+.mens_taital{ width: 100%; float: left; color: rgb(0, 0, 0); font-size: 14pt; }
 .mens_taital_2 {
     width: 100%;
     float: left;
@@ -235,7 +241,7 @@ button {
     width: 28%;
     /* margin: 0 auto; */
     text-align: center;
-    color: #ffffff;
+    color: #141619;
     border: 2px solid #8d8791;
     border-radius: 30px;
     margin-top: 150px;
@@ -249,12 +255,15 @@ button {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-    font-size: 16pt;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #db5660;
+    border-bottom: 2px solid #db5660;
+    padding-bottom: 5px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.9rem;
@@ -266,8 +275,10 @@ button {
 .banner_text{
 	width: 100%;
 	float: left;
-	font-size: 30pt;
-	color: #db5660;
+	font-size: 20pt;
+	color: #191919;
+    font: bold;
+    -webkit-text-stroke: 1px #ffffff;
 }
 
 .mens_text{
@@ -275,7 +286,7 @@ button {
 	float: left;
 	font-size: 39pt;
 	color: #fdfcfc;
-	line-height: 40px;
+	line-height: 50px;
 }
 .lorem_text{
 	width: 100%;
@@ -289,8 +300,17 @@ button {
 	width: 32%;
 	height: 50px;
 	color: #ffffff;
-	background-color: #ff4e5b;
+	background-color: #ff3b3b;
 	color: #ffffff;
+	font-size: 16pt;
+ }
+
+ .buy_bt:hover{ 
+	width: 32%;
+	height: 50px;
+	color: #ff3b3b;
+	background-color: #1a1a1a;
+	color: #ff3b3b;
 	font-size: 16pt;
  }
 
@@ -299,7 +319,17 @@ button {
 	height: 50px;
 	color: #ffffff;
 	background-color: #ffffff;
-	color: #ff4e5b;
+	color: #ff3b3b;
+	font-size: 16pt;
+	margin-left: 25px;
+ }
+
+ .more_bt:hover{
+	width: 32%;
+	height: 50px;
+	color: #ffffff;
+	background-color: #1a1a1a;
+	color: #ffffff;
 	font-size: 16pt;
 	margin-left: 25px;
  }
@@ -313,6 +343,9 @@ button {
 body{
     width:100%;
     height:100%;
+}
+.container {
+    margin: 0 auto;
 }
 .carousel-inner,.carousel,.carousel-item,.container,.fill {
     height:100%;
@@ -363,7 +396,6 @@ body{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
     margin-bottom: 5px;}
     
-}
 .carousel-indicators li.active{
     margin-bottom:5px; background:#00a199;
     
@@ -426,7 +458,7 @@ body{
     width: 24%;
     text-align: center;
     padding-top: 30px;
-    font-size: 16pt;
+    font-size: 15pt;
     color: #0c0116;
     border-bottom: 1px solid#000;
     margin: 0 auto;
@@ -468,8 +500,18 @@ body{
 	width: 32%;
 	height: 50px;
 	color: #ffffff;
-	background-color: #ff4e5b;
+	background-color: #ff3b3b;
 	color: #ffffff;
+	font-size: 16pt;	
+	margin-top: 35px;
+    margin-bottom: 90px;
+}
+.seemore_bt:hover{
+	width: 32%;
+	height: 50px;
+	color: #ff3b3b;
+	background-color: #191919;
+	color: #ff3b3b;
 	font-size: 16pt;	
 	margin-top: 35px;
     margin-bottom: 90px;
@@ -493,7 +535,7 @@ body{
     color: #ffffff; 
     text-align: center; 
     font-weight: bold; 
-    font-size: 40px; 
+    font-size: 30px; 
     background-color: #db5660;
     padding: 30px 0px;  
 }
@@ -502,7 +544,7 @@ body{
 	width: 100%;
 	float: left;
 	font-size: 45pt;
-	color: #ed2540;
+	color: #ff3b3b;
 	line-height: 75px;
 }
 
@@ -519,8 +561,17 @@ body{
 	width: 50%;
 	height: 50px;
 	color: #ffffff;
-	background-color: #ff4e5b;
+	background-color: #ff3b3b;
 	color: #ffffff;
+	font-size: 16pt;	
+	margin-top: 35px;
+}
+.seemore:hover{
+	width: 50%;
+	height: 50px;
+	color: #ff3b3b;
+	background-color: #1a1a1a;
+	color: #ff3b3b;
 	font-size: 16pt;	
 	margin-top: 35px;
 }
@@ -528,7 +579,7 @@ body{
 .gallery_section{
 	width: 100%;
 	float: left;
-	background-color: #ff4e5b;
+	background-color: #eae7e7;
 	height: auto;
 
 }
@@ -593,18 +644,32 @@ body{
 	font-size: 16pt;	
 	margin-top: 35px;
 }
+.buy_text:hover{
+	width: 32%;
+	height: 50px;
+	color: #191919;
+	background-color: #ff3b3b;
+	font-size: 16pt;	
+	margin-top: 35px;
+}
 
 .contact_section{
 	width: 100%;
 	float: left;
 }
+
+.contact_section {
+    display: flex;
+    justify-content: center;
+}
 .email_box {
     width: 85%;
-    float: right;
+    margin: 0 auto;
     background-color: #14120e;
     height: auto;
     padding: 20px 20px;
     opacity: 0.80;
+    
 }
 .form-group {
     margin-bottom: 2rem;
@@ -634,7 +699,7 @@ body{
     text-align: center;
 }
 .main_bt {
-    background: #ff4e5b;
+    background: #ff3b3b;
     border: none;
     width: 170px;
     height: 58px;
@@ -747,7 +812,7 @@ a:hover {
     color: #ffffff;
     text-align: center;
     padding: 10px 0px;
-    background-color: #ff4e5b;
+    background-color: #ff3b3b;
     font-family: Poppins;
 }
 
@@ -777,7 +842,7 @@ a:hover {
 .subscribr_bt {
     width: 80%;
     float: right;
-    background-color: #ff4e5b;
+    background-color: #ff3b3b;
     font-size: 13pt;
     height: 50px;
     color: #ffffff;
@@ -794,4 +859,58 @@ a:hover {
     width: 100%;
     height: auto;
     background: #0c0116;
+}
+/*---------------------------------------------------------------------------*/
+
+.text-pink {
+  color: #d6336c;
+}
+
+.btn-pink {
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-pink:hover {
+  background-color: #bf2b5f;
+}
+
+.register-section .card {
+  border-radius: 10px;
+}
+.order-page {
+  background-color: #fff8fb;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-pink {
+  color: #d6336c;
+}
+
+.btn-pink {
+  background-color: #d6336c;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: #bf2b5f;
+}
+
+.ice-card {
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.ice-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem;
 }
